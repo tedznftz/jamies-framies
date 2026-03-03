@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#C47044">
+  <title>Coming Soon — Jamie's Framies</title>
+  <meta name="description" content="Jamie's Framies — Professional mobile custom framing in Woodstock, Georgia. Coming soon!">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #FAF7F4;
+      font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
+      color: #3A3A3A;
+      overflow: hidden;
+    }
+
+    .coming-soon {
+      text-align: center;
+      padding: 40px 24px;
+      max-width: 520px;
+      animation: fadeUp 1s ease both;
+    }
+
+    .logo {
+      width: 160px;
+      height: auto;
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: #2C2C2C;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    h1 span {
+      color: #C47044;
+    }
+
+    .tagline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.1rem;
+      font-style: italic;
+      color: #B8965A;
+      margin-bottom: 32px;
+    }
+
+    .coming-label {
+      display: inline-block;
+      padding: 10px 36px;
+      border: 2px solid #C47044;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #C47044;
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: #E8E2DC;
+      margin: 28px auto;
+      border-radius: 1px;
+    }
+
+    .location {
+      font-size: 0.85rem;
+      color: #6B6B6B;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 1.8rem; }
+      .tagline { font-size: 1rem; }
+      .logo { width: 120px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="coming-soon">
+    <img src="images/logo.png" alt="Jamie's Framies logo" class="logo">
+    <h1>jamie's <span>framies</span></h1>
+    <p class="tagline">Professional Mobile Custom Framing</p>
+    <div class="coming-label">Coming Soon</div>
+    <div class="divider"></div>
+    <p class="location">Woodstock, Georgia & Surrounding Areas</p>
+  </div>
+</body>
+</html>
